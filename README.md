@@ -63,4 +63,4 @@ The **articles.csv** file contains all the scraped articles.
 **model.joblib** is model obtained from the project.
 **app.py** contains code for running the streamlit application.
 **non-stop-io.ipynb** is jupyter notebook used for working with **logistic regression** model and **newspaper3k**.
-**Scraped datasets** folder contains raw unprocessed data.***env** folder shall be ignored/deleted*.
+**Scraped datasets** folder contains raw unprocessed data. **report of the test evaluation.csv** file contains information obtained grid search cv .***env** folder shall be ignored/deleted*.
