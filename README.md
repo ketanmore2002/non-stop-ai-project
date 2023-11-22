@@ -3,7 +3,7 @@
 # Article Information Extractor (washingtonpost.com)
 
 **Objective:**
-Create a user-friendly desktop application using Streamlit that allows users to input a link to an article. Upon clicking the submit button, the application extracts information from the provided article link and displays relevant details.
+Create a user-friendly application using Streamlit that allows users to input a link to an article. Upon clicking the submit button, the application extracts information from the provided article link and displays relevant details.
 
 **Key Features:**
 1. **User Interface:**
@@ -21,7 +21,7 @@ Create a user-friendly desktop application using Streamlit that allows users to 
    - Displays the full text of the article for user convenience.
 
 **Workflow:**
-1. User opens the desktop application in with the help of Streamlit.
+1. User opens the desktop application with the help of Streamlit.
 2. A user-friendly interface prompts the user to input the link to an article.
 3. The user clicks the submit button to trigger the information extraction process.
 4. Extracted information, including the article details and text, is displayed on the application interface.
@@ -63,4 +63,4 @@ The **articles.csv** file contains all the scraped articles.
 **model.joblib** is model obtained from the project.
 **app.py** contains code for running the streamlit application.
 **non-stop-io.ipynb** is jupyter notebook used for working with **logistic regression** model and **newspaper3k**.
-**Scraped datasets** folder contains raw unprocessed data. **report of the test evaluation.csv** file contains information obtained grid search cv .***env** folder shall be ignored/deleted*.
+**Scraped datasets** folder contains raw unprocessed data. **report of the test evaluation.csv** file contains information obtained through grid search cv. ***env** folder shall be ignored/deleted*.
